@@ -1,3 +1,0 @@
-# smartGardenSimulator
-
-test VCS

@@ -34,7 +34,7 @@ L'applicazione deve gestire i seguenti scenari:
 
 - Diversificazione Piante:
 
-	- Devono esistere almeno tre tipi di piante (es. Fiori, Ortaggi, Piante Grasse a piacere)
+	- Devono esistere almeno tre tipi di piante (es. PianteDaFiori, Ortaggi, PianteGrasse a piacere)
 	- I tre tipi hanno tempi di crescita differenti e differenti fabbisogni di acqua (dopo un giorno una pianta diminuisce il livello di acqua di 1/10, un'altra di 2/10 eccetera...)
 	- Solo un tipo di pianta può dare frutto (prevedere un'interfaccia IRaccoglibile con un metodo Raccogli() e al comando dell'utente "se la pianta è di un certo tipo allora Raccogli() altrimenti stampa messaggio che non c'è nulla da raccogliere" e per farlo usare l'operatore "is")
 	- Se le piante sono assetate (il livello dell'acqua è sotto una certa soglia, differente per ogni pianta) non crescono e dopo 7 giorni muoiono (contatore GiorniInSofferenza). Altrimenti restano nello stato Matura
